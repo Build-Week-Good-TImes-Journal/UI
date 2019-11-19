@@ -330,9 +330,30 @@
     margin-left: 20px;
     margin-bottom: 4%;
 
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
     div {
         width: 380px;
         margin-bottom: 30px;
+
+        @media @mobile {
+            width: 100%;
+            margin-left: -1.1%;
+            margin-top: 2%;
+        }
+
+        img {
+
+            @media @mobile {
+                width: 450px;
+            }
+        }
 
         h2 {
             margin-bottom: 2%;
@@ -349,6 +370,10 @@
             color: #0B607B;
             font-size: 18px;
             width: 450px;
+
+            @media @mobile {
+                width: 90%;
+            }
         }
     }
 }
@@ -359,5 +384,11 @@
     width: 600px;
     margin-bottom: 2%;
     border-bottom: 2px dashed #0B607B;
+
+    @media @mobile {
+        display: flex;
+        width: 50%;
+        margin-left: 22%;
+    }
 
 }

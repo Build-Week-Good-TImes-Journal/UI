@@ -168,6 +168,7 @@ p {
   margin: 0%;
   flex-direction: row-reverse;
   padding-bottom: -1%;
+  padding-top: 1%;
   margin-top: -1%;
   background: #FF3238;
 }
@@ -182,7 +183,7 @@ p {
 .navigation nav {
   justify-content: space-between;
   margin-left: 11%;
-  margin-top: 6%;
+  margin-top: 4%;
   padding-left: 0px;
 }
 @media (max-width: 500px) {
@@ -227,6 +228,7 @@ p {
   .navigation img {
     width: 100%;
     margin-top: 2%;
+    margin-left: -1%;
   }
 }
 header {
@@ -252,9 +254,21 @@ header img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .ad-title {
+    display: flex;
+    justify-content: center;
+  }
+}
 .ad-title h2 {
   color: 0B607B;
   font-size: 80px;
+}
+@media (max-width: 500px) {
+  .ad-title h2 {
+    text-align: center;
+    font-size: 60px;
+  }
 }
 .ad-page-header {
   display: flex;
@@ -263,10 +277,21 @@ header img {
   background: black;
   border: #FF3238 solid 10px;
 }
+@media (max-width: 500px) {
+  .ad-page-header {
+    width: 100%;
+  }
+}
 .ad-page-header embed {
   width: 100%;
   height: 900px;
   box-shadow: white;
+}
+@media (max-width: 500px) {
+  .ad-page-header embed {
+    height: 250px;
+    width: 100;
+  }
 }
 .login-section {
   display: flex;
@@ -564,9 +589,28 @@ header img {
   margin-left: 20px;
   margin-bottom: 4%;
 }
+@media (max-width: 500px) {
+  .ad-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .ad-main div {
   width: 380px;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .ad-main div {
+    width: 100%;
+    margin-left: -1.1%;
+    margin-top: 2%;
+  }
+}
+@media (max-width: 500px) {
+  .ad-main div img {
+    width: 450px;
+  }
 }
 .ad-main div h2 {
   margin-bottom: 2%;
@@ -582,10 +626,22 @@ header img {
   font-size: 18px;
   width: 450px;
 }
+@media (max-width: 500px) {
+  .ad-main div p {
+    width: 90%;
+  }
+}
 .bottom-border {
   display: flex;
   margin-left: 480px;
   width: 600px;
   margin-bottom: 2%;
   border-bottom: 2px dashed #0B607B;
+}
+@media (max-width: 500px) {
+  .bottom-border {
+    display: flex;
+    width: 50%;
+    margin-left: 22%;
+  }
 }
