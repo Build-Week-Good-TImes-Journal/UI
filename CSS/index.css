@@ -90,6 +90,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -134,8 +135,8 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #477C7C;
-  background: #FFF4A6;
+  color: #477c7c;
+  background: #fff4a6;
 }
 h1,
 h2,
@@ -143,7 +144,7 @@ h3,
 h4,
 h5 {
   font-family: 'Ubuntu', sans-serif;
-  color: #0B607B;
+  color: #fff4a6;
 }
 h2 {
   font-size: 3.2rem;
@@ -160,18 +161,15 @@ p {
   width: 100%;
   margin: 0 auto;
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.team {
+  display: flex;
+  flex-direction: wrap;
+  background-color: blue;
+}
+* {
+  background-color: blue;
+}
