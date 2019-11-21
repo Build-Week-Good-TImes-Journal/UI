@@ -157,7 +157,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.navigation {
+/* .navigation {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -208,7 +208,7 @@ p {
 .navigation nav a:hover {
   background-color: #28A40E;
   border-bottom: 5px solid #0B607B;
-}
+} */
 .header-image {
   display: flex;
   justify-content: center;
