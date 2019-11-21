@@ -163,13 +163,54 @@ p {
 }
 .navigation {
   display: flex;
+  justify-content: width: 100%;
+  margin: 0%;
+  flex-direction: row;
+}
+.navigation a {
+  padding: 20px;
+}
+.navigation img {
+  width: 30%;
+  margin-right: 0px;
+  margin-left: 1%;
+  margin-right: -50px;
+}
+.navigation nav {
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 30%;
+}
+.navigation a {
+  text-decoration: none;
+  font-size: 34px;
+  padding: 15px;
 }
 .team {
   display: flex;
-  flex-direction: wrap;
-  background-color: blue;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 3%;
 }
-* {
-  background-color: blue;
+.team .team-member {
+  padding: 10px;
+  width: 45%;
+}
+.team .team-member img {
+  width: 100%;
+}
+.team .team-member h3 {
+  color: black;
+  padding: 20px;
+}
+.top-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-left: 3%;
+}
+.top-section h2 {
+  color: black;
+  padding: 20px;
 }
