@@ -163,7 +163,8 @@ p {
 }
 .navigation {
   display: flex;
-  justify-content: width: 100%;
+  justify-content: space-evenly;
+  width: 100%;
   margin: 0%;
   flex-direction: row;
 }
